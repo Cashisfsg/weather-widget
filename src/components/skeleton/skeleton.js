@@ -21,6 +21,10 @@ export const SkeletonWrapper = styled.section`
     gap: 16px;
     position: relative;
     overflow: hidden;
+
+    @media (max-width: 359px) {
+        width: 100%
+    }
     /* & > * {
         margin: 0;
         padding: 0;

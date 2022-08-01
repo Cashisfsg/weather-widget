@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Weather from "./components/Weather/Weather";
 import { useGeoLocation } from "./hooks/useGeoLocation";
 import { Wrapper } from "./components/Weather/styled";
